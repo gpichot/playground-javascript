@@ -1,6 +1,7 @@
 # Exercice 101 - Variables
 
-Use [Excalidraw](https://excalidraw.com/) to draw a diagram of variables and their values after the execution of the code.
+Use [Excalidraw](https://excalidraw.com/) or some paper to draw a diagram of
+variables and their values after the execution of the code.
 
 ## Tips for Excalidraw:
 
