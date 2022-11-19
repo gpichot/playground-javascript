@@ -63,6 +63,25 @@ span.count-words {
 }
 ```
 
+## Step 5: Save each title seen on the page
+
+In the content script, send to the background script the title of each
+paragraph that becomes visible on the screen.
+
+Log the titles in the background script.
+
 ## Bonus: Add a button to toggle the display
 
 Add a button to toggle the display of the number of words in a popup.
+
+Replace the words count by the reading time. You can use `reading-time` package
+from npm.
+
+## Bonus: Display last read date and time next to the title
+
+Save the last read date and time in the background script for each title.
+
+Display the last read date and time next to the title in the popup.
+
+If the title is not read or is being read for the first time display the eyes
+emoji '👀'.
