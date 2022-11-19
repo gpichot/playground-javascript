@@ -38,3 +38,11 @@ Edit the correct file to display a color picker in the options page. You can
 use for this the `input` element with the `type` attribute set to `color`.
 
 When the user changes the color, the popup should update the color of the time.
+
+## Bonuses
+
+1. Change your code to use the `webextension-polyfill` and use a promised version
+   of the API.
+
+2. Add a badge with the text ON. Add an option to change the color of the
+   badge. This time use the `input` event to change the background color.
