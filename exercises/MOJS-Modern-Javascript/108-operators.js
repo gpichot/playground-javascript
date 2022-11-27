@@ -102,13 +102,17 @@ console.log("--- 4. Best Practices ---");
 function createUserStub(user) {
   let userStub = { ...user };
   let permissions = [];
-  if ((user.role = "admin")) {
+  if (user.role === "admin") {
     permissions = ["read", "write", "delete"];
   } else {
     permissions = ["read"];
   }
   userStub.testId = "user-stub";
   userStub.permissions = permissions;
+
+  if (!user.active) {
+    userStub.active = false;
+  }
 
   return userStub;
 }
