@@ -39,6 +39,10 @@ use for this the `input` element with the `type` attribute set to `color`.
 
 When the user changes the color, the popup should update the color of the time.
 
+## Step 4: Migrate the application to TypeScript
+
+Migrate the application to TypeScript. :)
+
 ## Bonuses
 
 1. Change your code to use the `webextension-polyfill` and use a promised version

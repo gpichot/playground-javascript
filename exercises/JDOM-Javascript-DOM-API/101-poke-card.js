@@ -49,4 +49,16 @@ function onReceivePokemons(pokemons) {
   // - https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
   //
   // - Change the code to log it once only
+
+  console.log("--- Bonus 2 ---");
+  // B2. This not related at all with the previous questions. But it should
+  // take you a bit more time to do it.
+  // Create a function that computes the Fibonacci sequence using a naive exponential
+  // algorithm using the following signature:
+  // fibonacci(0) = 0
+  // fibonacci(1) = 1
+  // fibonacci(n) = fibonacci(n-1) + fibonacci(n-2)
+  // - Use the function to compute the fibonacci sequence for 42
+  // - Display the result in the console
+  // - Move this to a web worker
 }
