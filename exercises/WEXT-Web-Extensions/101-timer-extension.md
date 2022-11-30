@@ -28,7 +28,7 @@ Check the `manifest.json` file and ensure that you have a popup entry.
 
 Edit the correct file to display the current time in the popup using the DOM.
 
-Ensure that the popup updates the show time every second.
+Ensure that the popup updates the time every second.
 
 ## Step 3: Create the options page
 
