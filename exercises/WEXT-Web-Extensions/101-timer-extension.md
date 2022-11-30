@@ -10,7 +10,7 @@ options page.
 
 Create a new extension with the following command:
 
-    npx degit gpichot/templates/web-extension my-timer-ext
+    npx degit gpichot/rapide/templates/web-extension my-timer-ext
 
 Go in the `my-timer-ext` directory and install the dependencies:
 
