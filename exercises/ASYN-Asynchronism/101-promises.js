@@ -7,7 +7,7 @@ console.log("Promises");
 
 // 2. Create a function that returns a promise that rejects with the value 42.
 
-// 3. Create a function that returns promise that resolves with a random
+// 3. Create a function that returns a promise that resolves with a random
 // integer after 3 seconds.
 
 // 4. Use the previous function to create a function that returns a promise
@@ -36,4 +36,4 @@ function getPokemons(ids) {
   );
 }
 
-// 9. Make sure that the functino above catch errors properly.
+// 9. Make sure that the function above catch errors properly.
